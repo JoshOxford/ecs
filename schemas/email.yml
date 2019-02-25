@@ -31,11 +31,6 @@
       type: keyword
       description: >
         ID of message.
-        
-    - name: trace_message_id
-      type: keyword
-      description: >
-       Trace ID of message.
 
     - name: related_message_id
       type: keyword
@@ -57,6 +52,10 @@
       description: >
        Information specific to exchange email logs
       fields:
+        - name: trace_message_id
+          type: keyword
+          description: >
+          
         - name: connector_id
           type: keyword
           description: >
