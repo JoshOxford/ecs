@@ -1,0 +1,27 @@
+---
+- name: authentication
+  title: authentication
+  group: 2
+  description: >
+    The authentication fields contain the data about authentication events.
+  type: group
+  fields:
+    - name: remote
+      type: bool
+      description: >
+      authentication from the same domain or remote.
+      
+    - name: method
+      type: keyword
+      description: >
+      The method used to authenticate the request e.g. Password/InfoCard/OneTimeCode/
+    
+    - name: status
+      type: keyword
+      description: >
+      The outcome of the authentication request
+      
+    - name: type
+      type: keyword
+      description: >
+      The type of the authentication request e.g. OAuth2:Token 
