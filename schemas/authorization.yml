@@ -1,0 +1,12 @@
+---
+- name: authorization
+  title: authorization
+  group: 2
+  description: >
+    The authorization fields contain the data about authorization events.
+  type: group
+  fields:
+    - name: type
+      type: keyword
+      description: >
+      The type of authorization given e.g. root/admin/user
