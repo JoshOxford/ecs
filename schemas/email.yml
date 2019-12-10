@@ -111,3 +111,27 @@
         - name: total_bytes
           type: integer
           description: >
+          
+        - name: folder_id
+          type: keyword
+          description: >
+          
+        - name: folder_path
+          type: keyword
+          description: >
+       
+        - name: mailbox_id
+          type: keyword
+          description: >
+          
+        - name: mailbox_owner 
+          type: keyword
+          description: >
+          
+        - name: item_id 
+          type: keyword
+          description: >
+        
+        - name: mailbox_owner_id
+          type: keyword
+          description: >
